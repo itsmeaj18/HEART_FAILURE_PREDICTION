@@ -31,7 +31,10 @@ class OutlierCapper(BaseEstimator, TransformerMixin):
         return X_df.values
 
 # Load the trained model
-model = joblib.load('heart_disease_model.pkl')
+import os
+model_path = os.path.join(os.path.dirname(__file__), 'heart_disease_model.pkl')
+model = joblib.load(model_path)
+
 
 # Set page config
 st.set_page_config(page_title="Heart Disease Predictor 💓", page_icon="💓", layout="wide")
