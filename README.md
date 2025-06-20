@@ -2,6 +2,10 @@
 
 This project aims to predict the presence of heart disease in patients using clinical parameters and a logistic regression model. The project involves full exploratory data analysis (EDA), data preprocessing with outlier treatment and missing value imputation, encoding, scaling, and model training via Scikit-learn pipelines.
 
+## 📌 Project Demo
+![Demo](https://github.com/itsmeaj18/HEART_FAILURE_PREDICTION/blob/main/HEART_FAILURE_PREDICTION/Project%20Demo.gif)
+
+
 ## 📌 Project Highlights
 
 - 📊 Exploratory Data Analysis with important visualizations
